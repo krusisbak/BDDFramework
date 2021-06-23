@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.664298">
+<testcase classname="Nopcommerce Login" name="Nopecommerce Login Test" time="11.664298">
+<failure message="org.junit.ComparisonFailure: expected:&lt;...pCommerce demo store[]&gt; but was:&lt;...pCommerce demo store[. Login]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.user_is_on_homepage(LoginStepDefinition.java:70)&#13;&#10;&#9;at ✽.Then User is on homepage(D:/Software/BDDFramework/src/test/java/feature/Login.feature:8)&#13;&#10;"><![CDATA[Given User is on login page.................................................passed
+When Title of login page....................................................passed
+Then User enters username and password......................................passed
+Then User click on login button.............................................passed
+Then User is on homepage....................................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<...pCommerce demo store[]> but was:<...pCommerce demo store[. Login]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.LoginStepDefinition.user_is_on_homepage(LoginStepDefinition.java:70)
+	at ✽.Then User is on homepage(D:/Software/BDDFramework/src/test/java/feature/Login.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
